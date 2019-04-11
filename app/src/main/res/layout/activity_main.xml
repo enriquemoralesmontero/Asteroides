@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/degradado"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/tituloAplicacion"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Button01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="lanzarJuego"
+        android:text="@string/Arrancar"/>
+    <Button
+        android:id="@+id/Button02"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="mostrarPreferencias"
+        android:text="Mostrar configuraciones"/>
+    <Button
+        android:id="@+id/Button03"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Acercade"/>
+    <Button
+        android:id="@+id/Button04"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/Puntuaciones"/>
+</LinearLayout>
